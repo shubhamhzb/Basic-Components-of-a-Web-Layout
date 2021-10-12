@@ -35,16 +35,6 @@ input {
     height: 35%;
 }
 
-.bottom {}
-
-#password-length {}
-
-#generated-password {}
-
-.generate-password-btn {}
-
-.copy-password-btn {}
-
 .btn {
     background-color: #6563e1;
     border: none;

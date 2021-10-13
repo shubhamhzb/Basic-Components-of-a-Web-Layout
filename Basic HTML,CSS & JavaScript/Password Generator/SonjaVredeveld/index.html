@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="card">
+        <div class="top">
+            <label>How long would you like your password to be?</label>
+            <input type="number" id="password-length"></input>
+            <input disabled="disabled" id="generated-password"></input>
+        </div>
+        <div>
+            <button class="btn" onclick="generatePassword()">Give me a password!</button>
+            <button class="btn" onclick="copyPassword()">Copy password</button>
+        </div>
+    </div>
+    <script src="password-generator.js"></script>
+</body>
+
+</html>

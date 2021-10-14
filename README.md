@@ -47,7 +47,7 @@ Please try to follow these guidelines:
 
    - [ ] <code>git remote add upstream https://github.com/pcon-hacktoberfest-21/Basic-Components-of-a-Web-Layout</code>
 
-   - [ ] <code>git pull upstream master</code>
+   - [ ] <code>git pull upstream main</code>
 
    - [ ] The above 2 commands will synchronize your forked version of the project with the actual repository.
 

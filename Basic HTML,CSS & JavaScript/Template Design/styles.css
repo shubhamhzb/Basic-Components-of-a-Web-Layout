@@ -1,0 +1,110 @@
+body{
+  height: 100vh;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.main-div{
+  margin: auto;
+  width: 70%;
+  height: 60%;
+  padding: 5%;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0 50px 100px -20px, rgba(0, 0, 0, 0.3) 0 30px 60px -30px, rgba(10, 37, 64, 0.35) 0 -2px 6px 0 inset;
+  background: linear-gradient(#ffc803,#ff8d03);
+}
+
+.image-div{
+  width: 39%;
+  text-align: center;
+}
+
+.image-1{
+  width: 90%;
+}
+
+.text-div{
+  color: white;
+  width: 60%;
+}
+
+h1{
+  font-family: 'Ephesis', cursive;
+  font-size: 4.5rem;
+  text-align: center;
+  margin: 0;
+}
+
+h2{
+  font-family: 'Poppins', sans-serif;
+  text-align: right;
+  margin-top: 0;
+}
+
+p{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3rem;
+  text-align: center;
+  line-height: 2;
+}
+
+table{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3rem;
+  text-align: center;
+  width: 100%;
+}
+
+td{
+  padding: 0 3%;
+}
+
+.data-row{
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.icon-div{
+  text-align: center;
+  margin: 5%;
+  margin-bottom: 3%;
+}
+
+.icon{
+  font-size: 2rem;
+  color: white;
+}
+
+a{
+  margin: 5%;
+}
+
+@media (max-width: 768px) {
+  body{
+    height: auto;
+  }
+
+  .main-div{
+    margin: 5% auto;
+    display: block;
+  }
+
+  .image-div{
+    width: 100%;
+  }
+
+  .image-1{
+    width: 80%;
+  }
+
+  .text-div{
+    width: 100%;
+  }
+
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!-- Created by suryansh882 -->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- my stylesheet -->
+    <link rel="stylesheet" href="sytle.css" />
+
+    <!-- favicon  -->
+    <link rel="icon" href="favicon.ico" />
+
+    <!-- Title  -->
+    <title>Password Generater</title>
+  </head>
+
+  <body>
+    <!-- Heading -->
+    <div class="row">
+      <h1><strong>Password Generator</strong></h1>
+    </div>
+
+    <div class="row">
+      <input
+        type="number"
+        class="form-control leng"
+        id="pass-length"
+        placeholder="Enter length of password"
+      />
+
+      <button class="btn" onclick="genPass();">Enter</button>
+    </div>
+
+    <div class="row">
+      <input
+        type="text"
+        class="form-control"
+        disabled="disabled"
+        id="pass"
+        placeholder="Your password"
+      />
+
+      <button class="btn" onclick="copy()">Copy</button>
+    </div>
+    <div id="toast">Password Copied !</div>
+
+    <!-- MY JavaScript -->
+    <script src="index.js"></script>
+  </body>
+</html>

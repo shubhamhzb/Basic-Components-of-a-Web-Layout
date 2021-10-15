@@ -1,0 +1,236 @@
+ body 
+ {
+     font-size: 15px;
+     margin-left: 0;
+     margin-right: 0;
+     margin-bottom: 0;
+     background-color: #fff  ;
+ }
+ footer
+ {
+     display:block;
+     margin:0;
+     height: 178px;
+     width: 100%;
+     background-color: #345B63;
+
+    }
+    .box {
+        height:900px;
+        display:block;
+        width: 100%;
+    }
+ .footer-left 
+ {
+     text-align: center;
+     position: relative;
+     display:inline-block;
+     left: 0%;
+     top: 5px;
+      margin:0;
+      width: 18%;
+ }
+ .logo 
+ {
+     width: 30%;
+     margin-top:0px;
+     height: 10%;
+ }
+
+ .name
+  {
+     width: 10%;
+     font-family: 'Montserrat', sans-serif;
+     color: aliceblue;
+ }
+ .nav 
+ {
+     text-decoration: none;
+     color: white;
+ }
+ .nav:hover 
+ {
+     color: #90AACB;
+ }
+ #home 
+ {
+     border-right: 3px solid white;
+     padding:0% 10px;
+ }
+ #blog 
+ {
+     border-right: 3px solid white;
+     padding:0% 10px;
+ }
+ #about 
+ {
+     padding:0% 10px;
+ }
+ .footer-middle
+  {
+      text-align: center;
+     font-family: 'Montserrat', sans-serif;
+     position: relative;
+     display:inline-block;
+     padding:5px 0 0;
+     margin-bottom: 5px;
+     left:3%;
+     width: 43%;
+ }
+ .btn{
+    background-color: #04AA6D;
+    color: white;
+    padding: 2px 1.2px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 28%;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity:1;
+  }
+ .address
+ {
+    font-family: 'Montserrat', sans-serif;
+ }
+ .signup
+ {
+     margin: 0;
+     font-family: 'Architects Daughter', cursive;
+ }
+ .social:hover
+ {
+   transform: scale(1.5);
+   color: white;
+ }
+
+ .footer-right
+ {
+    font-family: 'Architects Daughter', cursive;
+     text-align: center;
+     position: relative;
+     display:inline-block;
+     width: 36%;
+      left: 1%;
+      padding: 0 0px;
+ 
+ }
+ button {
+    padding: 4px 4px;
+
+  }
+  button:hover {
+    opacity:1;
+  }
+  .signup
+  {
+      margin: 0;
+  }
+ .footer-bottom
+  {
+      text-align: center;
+      position:relative;
+      width: 100%;
+      bottom: 0%;
+      margin: 5px 0px 0px;
+      display:block;
+     
+ }
+ .bottom-links
+  {
+     font-size: 12px;
+     padding:0px 5px;
+     letter-spacing: 1px;
+     text-decoration: none;
+     color: black;
+ }
+ .new-left{
+    display:none;
+}
+ .bottom-links:hover 
+ {
+     color: rgb(175, 170, 170);
+ }
+ .links 
+ {
+     margin-top: 1rem;
+     width: 100%;
+ }
+ .terms 
+ {
+     margin-top: 1.5rem;
+ }
+ .rights 
+ {
+     margin-right: 2rem;
+     font-weight: bold;
+     letter-spacing: 1px;
+     font-size: 12px;
+ }
+
+ p
+ {
+    font-family: 'Montserrat', sans-serif;
+ }
+ @media screen and (max-width: 1000px) {
+     body{
+         font-size:12px;
+         letter-spacing: 1px;
+     }
+     footer{
+         height:305px;
+         margin:0% 0%;
+     }
+     .footer-left 
+     {
+          display: none;
+     }
+    
+        .new-left{
+            display:block;
+            width: 100%;
+            margin: 0% auto 0;
+            position: relative;
+            text-align: center;
+        } 
+        .logo{
+            height: 40px;
+            width: 40px;
+        }
+        .footer-middle
+        {
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            display: inline-block;
+            width: 47%;
+            margin:0;
+        }
+        .footer-right
+        {
+            text-align: center;
+            top:0%;
+            display: inline-block;
+            margin: 7px 0px 1px;
+            width: 50%;
+            left:0%;
+        }
+    .footer-bottom
+  {
+      text-align: center;
+      position:relative;
+      
+      width: 100%;
+      margin: 7px 0px 0px;
+      bottom: 0%; 
+ }
+    .rights{
+        display: block;
+        width: 100%;;
+        margin-bottom: 0px;
+    }
+    .name{
+        font-size:14px;
+    }
+  }

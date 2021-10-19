@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+    <div class="h2">Simple setup</div>
+    <nav aria-label="pagination">
+        <ol class="pagination">
+            <li><a href="#item" aria-label="Page 1">1</a></li>
+            <li><a href="#item" aria-label="Page 2" aria-current="page">2</a></li>
+            <li><a href="#item" aria-label="Page 3">3</a></li>
+            <li><a href="#item" aria-label="Page 4">4</a></li>
+            <li><a href="#item" aria-label="Page 5">5</a></li>
+        </ol>
+    </nav>
+    <div class="h2">With Buttons and ellipsis</div>
+    <nav aria-label="pagination" class="pagination justify-center">
+        <button class="pagination-item flex-grow md-flex-initial">Previous</button>
+        <button class="pagination-item flex-grow md-flex-initial md-order-last">Next</button>
+        <ol class="pagination">
+            <li><a href="#item" aria-label="Page 1">1</a></li>
+            <li><a href="#item" aria-label="Page 2" aria-current="page">2</a></li>
+            <li><a href="#item" aria-label="Page 3">3</a></li>
+            <li><span aria-hidden="true" class="pagination-ellipsis">&hellip;</span></li>
+            <li><a href="#item" aria-label="Page 50">50</a></li>
+        </ol>
+    </nav>
+    <div class="h2">as Dots (for a slider)</div>
+    <nav aria-label="pagination" class="pagination -dots">
+        <a href="#item" aria-label="Slide 1"></a>
+        <a href="#item" aria-label="Slide 2" class="is-active"></a>
+        <a href="#item" aria-label="Slide 3"></a>
+        <a href="#item" aria-label="Slide 4"></a>
+    </nav>
+    <div class="h2">Just as buttons</div>
+    <nav aria-label="pagination" class="pagination">
+        <button class="btn -theme">Previous Post</button>
+        <button class="btn -theme">Next Post</button>
+    </nav>
+</main>
+</body>
+</html>

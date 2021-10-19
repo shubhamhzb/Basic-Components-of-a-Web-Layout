@@ -1,0 +1,1 @@
+You have to make basic projects using HTML, CSS and JavaScript in this folder. (No bootstrap)

@@ -1,0 +1,1 @@
+You have to make basic projects in ReactJS in this folder. 

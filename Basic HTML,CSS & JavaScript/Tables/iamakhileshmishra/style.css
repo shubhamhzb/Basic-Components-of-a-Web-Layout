@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.table-box{
+    
+    margin: 25px auto;
+    width:900px;
+    height: 250px;
+    position : relative;
+    font-size: 0.9em;
+    padding: 5px;
+    box-shadow: 0 0 20px rgba(67, 224, 46, 0.89);
+}
+table,td,th{
+    border: 1px solid rgb(8, 121, 27);
+    text-align: left;
+     border-bottom: 2px solid #009879;
+}
+th{
+     background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th,td{
+    padding: 12px 15px;
+}
+tr:hover{
+     font-weight:bolder ;
+    color: #980014;
+}
